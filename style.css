@@ -9,6 +9,18 @@ body {
     background: #060AB2;
 }
 
-img {
-    width: 100px;
+.memory-game {
+    border: 2px solid lime;
+    width: 640px;
+    height: 640px;
+    display: flex;
+}
+
+.memory-card {
+    border: 2px solid aqua;
+}
+
+.front-face,
+.back-face {
+    border: 2px solid deeppink;
 }
